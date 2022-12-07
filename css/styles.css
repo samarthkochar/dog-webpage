@@ -1,0 +1,176 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat-bold',sans-serif;
+}
+
+/* Headings */
+
+.big-heading{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 3.5rem;
+  fine-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+padding: 7% 15%;
+}
+
+/* Sections */
+
+.coloured-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar{
+padding-bottom: 4.5rem;
+}
+
+.nav-item{
+  /* margin:35px; */
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.4rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Download Button */
+
+.download-button{
+  font-size: 1.5rem;
+  margin: 10% 3% 5% 0;
+  border-radius: 5px;
+}
+
+/* Tittle Section */
+
+#title .container-fluid{
+  padding: 3% 7% 15%;
+  text-align: left;
+}
+
+/* Title image */
+
+.title-image{
+  width: auto;
+  /* margin-top: 60px; */
+  -ms-transform: rotate(25deg);
+    transform: rotate(25deg);
+  position: absolute;
+
+}
+
+/* Feature section */
+
+#features{
+  position: relative;
+  z-index: 1;
+
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.icon{
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.icon:hover{
+  color: #ef8172;
+}
+
+.feature-para{
+  color: #8f8f8f;
+}
+
+/* testimonials section */
+
+#testimonials{
+  background-color: #ef8172;;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonials-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding: 100px;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+/* CTA Section*/
+
+
+
+/* footer content */
+
+.social-icon{
+margin: 20px 15px;
+}
+
+@media (max-width: 1150px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
